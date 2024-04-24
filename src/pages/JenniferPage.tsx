@@ -12,7 +12,7 @@ const JenniferPage = () => {
           <h2>Facts About Jennifer</h2>
           <p><strong>Home Town:</strong> Sunnyvale</p>
           <p><strong>Major:</strong> Computer Science</p>
-          <p><strong>Fun Fact:</strong> My favorite color is pink!</p>
+          <p><strong>Fun Fact:</strong> My favorite colors are pink and yellow!</p>
           <Link to="/" style={buttonStyle}>Back to home page</Link>
         </div>
       </div>
