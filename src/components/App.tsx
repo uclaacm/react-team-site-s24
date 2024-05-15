@@ -14,10 +14,11 @@ function App(): JSX.Element {
           <Route path="/AnooshkhaPage" element={<AnooshkhaPage />} />
           <Route path="/JenniferPage" element={<JenniferPage />} />
           <Route path="/ShreyaPage" element={<ShreyaPage />} />
+          <Route path="/AnushaPage" element={<AnushaPage />} />
 
         </Routes>
     </Router>
-  );
+  )
 }
 
 export default App;
