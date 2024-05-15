@@ -5,14 +5,14 @@ import AnushaImage from '../assets/images/anusha.png';
 const AnushaPage = () => {
   return (
     <div style={pageStyle}>
-      <h1>Welcome to Anusha's Page!</h1>
+      <h1>Welcome to Anooshkha's Page</h1>
       <div style={containerStyle}>
         <img src={AnushaImage} alt="Anusha" style={imageStyle} />
         <div style={contentStyle}>
-          <h2>Facts About Anusha</h2>
+          <h2>Facts About Anooshkha</h2>
           <p><strong>Home Town:</strong> Bay Area</p>
           <p><strong>Major:</strong> Math of Comp</p>
-          <p><strong>Fun Fact:</strong> My favorite color is purple!</p>
+          <p><strong>Fun Fact:</strong> My favorite color is green!</p>
           <Link to="/" style={buttonStyle}>Back to home page</Link>
         </div>
       </div>
