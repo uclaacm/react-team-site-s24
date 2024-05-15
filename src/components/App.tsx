@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import AnooshkhaPage from '../pages/AnooshkhaPage';
 import JenniferPage from '../pages/JenniferPage';
+import ShreyaPage from '../pages/ShreyaPage';
+import AnushaPage from '../pages/AnushaPage';
 // Import other person pages here
 
 function App(): JSX.Element {
@@ -13,10 +15,12 @@ function App(): JSX.Element {
           <Route path="/" element={<HomePage />} />
           <Route path="/AnooshkhaPage" element={<AnooshkhaPage />} />
           <Route path="/JenniferPage" element={<JenniferPage />} />
+          <Route path="/ShreyaPage" element={<ShreyaPage />} />
+          <Route path="/AnushaPage" element={<AnushaPage />} />
 
         </Routes>
     </Router>
-  );
+  )
 }
 
 export default App;
