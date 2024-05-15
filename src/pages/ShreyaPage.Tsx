@@ -18,7 +18,9 @@ const ShreyaPage = () => {
     )
 };
 
-const PageStyle = {
+export default ShreyaPage;
+
+const pageStyle = {
 padding: '20x',
 backgroundColor: '#CDB4DB'
 };
@@ -31,3 +33,7 @@ const contentStyle = {
     color: '#444',
     marginTop: '20px',
 };
+
+const buttonStyle {
+
+}
