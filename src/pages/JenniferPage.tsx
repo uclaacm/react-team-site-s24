@@ -10,7 +10,7 @@ const JenniferPage = () => {
         <img src={JenniferImage} alt="Jennifer" style={imageStyle} />
         <div style={contentStyle}>
           <h2>Facts About Jennifer</h2>
-          <p><strong>Home Town:</strong> Sunnyvale</p>
+          <p><strong>Home Town:</strong> Sunnyvale (Bay Area)</p>
           <p><strong>Major:</strong> Computer Science</p>
           <p><strong>Fun Fact:</strong> My favorite colors are pink and yellow!</p>
           <Link to="/" style={buttonStyle}>Back to home page</Link>
