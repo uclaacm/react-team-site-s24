@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import JenniferImage from '../assets/images/jennifer.png';
+import LoopyImage from '../assets/images/loopy.png';
 
 const JenniferPage = () => {
   return (
@@ -8,6 +9,7 @@ const JenniferPage = () => {
       <h1>Welcome to Jennifer's Page</h1>
       <div style={containerStyle}>
         <img src={JenniferImage} alt="Jennifer" style={imageStyle} />
+        <img src={LoopyImage} alt="Loopy" style={imageStyle} />
         <div style={contentStyle}>
           <h2>Facts About Jennifer</h2>
           <p><strong>Home Town:</strong> Sunnyvale (Bay Area)</p>
