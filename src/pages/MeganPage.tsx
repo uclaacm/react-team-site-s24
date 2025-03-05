@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MegPage = () => {
+const MeganPage = () => {
     return (
         <div>
             <h1>Welcome to Megan's Page</h1>
@@ -11,4 +11,4 @@ const MegPage = () => {
     )
 };
 
-export default MegPage
+export default MeganPage
