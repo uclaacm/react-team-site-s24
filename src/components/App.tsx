@@ -6,6 +6,7 @@ import AnooshkhaPage from '../pages/AnooshkhaPage';
 import JenniferPage from '../pages/JenniferPage';
 import ShreyaPage from '../pages/ShreyaPage';
 import AnushaPage from '../pages/AnushaPage';
+import MeganPage from '../pages/MeganPage'; 
 // Import other person pages here
 
 function App(): JSX.Element {
@@ -17,7 +18,7 @@ function App(): JSX.Element {
           <Route path="/JenniferPage" element={<JenniferPage />} />
           <Route path="/ShreyaPage" element={<ShreyaPage />} />
           <Route path="/AnushaPage" element={<AnushaPage />} />
-
+          <Route path="/MeganPage" element={<MeganPage />} />
         </Routes>
     </Router>
   )
